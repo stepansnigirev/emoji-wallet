@@ -40,9 +40,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
         document.getElementById("xpub").innerHTML = xpub;
 
         if(o.hash.startsWith(prefix)){
-            seedInput.className = "form-control is-valid";
+            seedInput.className = "is-valid";
         }else{
-            seedInput.className = "form-control is-invalid";
+            seedInput.className = "is-invalid";
         }
     }
 
