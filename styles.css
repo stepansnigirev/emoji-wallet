@@ -5,6 +5,16 @@ html, body{
 *{
 	box-sizing: border-box;
 }
+#forkme{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+@media only screen and (max-width: 600px) {
+	#forkme{
+		width: 120px;
+	}
+}
 main{
 	max-width: 800px;
 	width: 100%;
