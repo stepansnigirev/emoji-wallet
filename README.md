@@ -1,5 +1,7 @@
 # Emoji wallet
 
+Demo: [www.emoji-wallet.com](https://www.emoji-wallet.com/)
+
 Mnemonic seed with emojis instead of words. Evening fun project, without any real applications, just for fun.
 
 You can generate a private key and show it as a sequence of emojis. This sequence has a checksum (like in electrum, derived from hash, not from the wordlist) and you can actually use these private and public keys in any wallet.
