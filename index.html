@@ -30,25 +30,27 @@
 		</div>
 
 		<h2>Your emoji seed:</h2>
-		<input type="text" id="seed">
-		</input>
 		<p class="note" style="text-align: justify;">
-			To detect typos we use a wordlist-independent electrum-like checksum: Emoji seed generator creates sequences of random emojis and checks if their HMAC starts with "80" (😲). With this kind of checksum even using a different list of emojis will lead to a valid seed, and if you've made a typo when entering the seed first two characters of the HMAC will be different from "80", so you will know that you made a typo.
+			Refresh this page to get a new seed.
 		</p>
+		<p class="note" style="text-align: justify;">
+			To detect typos we use a wordlist-independent electrum checksum approach: Emoji seed generator creates sequences of random emojis and checks if their HMAC starts with "01" (electrum standard seed). With this type of checksum even using a different list of emojis will lead to a valid seed, and if you've made a typo when entering the seed first two characters of the HMAC will be different from "01", so you will know that you made a typo.
+		</p>
+		<input type="text" id="seed"/>
 
 		<h2>Seed hash:</h2>
-		<div class="wrap" id="hmac">&nbsp;<br>&nbsp;</div>
 		<p class="note">
-			Hash should start with "80". It's a simple check to make sure you didn't make a typo.
+			Hash should start with "01". It's a simple check to make sure you didn't make a typo.
 		</p>
+		<div class="wrap" id="hmac">&nbsp;<br>&nbsp;</div>
 
 		<h2>Your master private key:</h2>
+		<p class="note">You can import it to any wallet. Derived the same way as in electrum wallet.</p>
 		<div class="wrap" id="xprv">&nbsp;<br>&nbsp;</div>
-		<p class="note">You can import it to any wallet.</p>
 
 		<h2>Your master public key:</h2>
+		<p class="note">You can import it to any wallet to watch your funds. Derived the same way as in electrum wallet.</p>
 		<div class="wrap" id="xpub">&nbsp;<br>&nbsp;</div>
-		<p class="note">You can import it to any wallet to watch your funds.</p>
 
 		<h2>Current emojis wordlist</h2>
 		<div style="font-size: 30px;">
