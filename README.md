@@ -1,6 +1,6 @@
 # Emoji wallet
 
-Demo: [www.emoji-wallet.com](https://www.emoji-wallet.com/)
+Demo: [https://stepansnigirev.github.io/emoji-wallet/](https://stepansnigirev.github.io/emoji-wallet/)
 
 Mnemonic seed with emojis instead of words. Evening fun project, without any real applications, just for fun.
 
